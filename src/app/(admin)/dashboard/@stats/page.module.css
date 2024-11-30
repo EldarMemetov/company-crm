@@ -1,0 +1,9 @@
+/* page.module.css */
+.grid {
+  display: flex;
+  gap: 20px;
+}
+
+.card {
+  grid-column: span 3;
+}

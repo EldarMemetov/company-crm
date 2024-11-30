@@ -1,0 +1,87 @@
+/* styles.module.css */
+
+.statCard {
+  border-radius: 4px;
+}
+
+.statCardDark {
+  padding-top: 12px;
+  padding-left: 12px;
+  padding-right: 12px;
+  background-color: #111827;
+  color: #a855f7;
+  text-align: right;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.statCardDark:nth-child(even) {
+  color: #84cc16;
+}
+
+.statCardDarkLabel {
+  font-size: 14px;
+  margin-bottom: 4px;
+  color: #f9fafb;
+}
+
+.statCardDarkLabel::before {
+  content: "";
+  display: block;
+  width: 16px;
+  height: 2px;
+  border-radius: 2px;
+  margin-bottom: 8px;
+  background-color: #f9fafb;
+}
+
+.statCardGradient {
+  padding: 28px;
+  background-color: #e9d5ff;
+  color: #111827;
+  text-align: left;
+  background-size: cover;
+}
+
+.statCardGradient:nth-child(4n + 1) {
+  background-image: url("/images/mesh-gradient-1.svg");
+  width: 250px;
+}
+
+.statCardGradient:nth-child(4n + 2) {
+  background-image: url("/images/mesh-gradient-2.svg");
+  width: 250px;
+}
+
+.statCardGradient:nth-child(4n + 3) {
+  background-image: url("/images/mesh-gradient-3.svg");
+  width: 250px;
+}
+
+.statCardGradient:nth-child(4n + 4) {
+  background-image: url("/images/mesh-gradient-4.svg");
+  width: 250px;
+}
+
+.statCardGradientLabel {
+  font-size: 12px;
+  margin-bottom: 20px;
+}
+
+.statCardGradientLabel::before {
+  content: "";
+  display: inline-block;
+  width: 16px;
+  height: 2px;
+  border-radius: 2px;
+  margin-right: 8px;
+  vertical-align: middle;
+  background-color: #111827;
+}
+
+.statCardCounter {
+  font-size: 64px;
+  font-weight: 600;
+}

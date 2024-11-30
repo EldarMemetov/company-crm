@@ -1,0 +1,17 @@
+.tableContainer {
+  padding: 32px 40px;
+  background-color: #f3f4f6;
+}
+
+.table {
+  width: 100%;
+  border-spacing: 0 8px;
+  border-collapse: separate;
+}
+
+.headerCell {
+  padding-bottom: 20px;
+  font-size: 14px;
+  font-weight: 300;
+  color: #111827;
+}

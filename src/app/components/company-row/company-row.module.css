@@ -1,0 +1,33 @@
+.row {
+  height: 56px;
+  text-align: center;
+  color: #111827;
+  background-color: #ffffff;
+}
+
+.categoryCell {
+  font-size: 12px;
+  font-weight: 500;
+  color: #1d4ed8;
+  border-left: 4px solid #1d4ed8;
+  border-radius: 0;
+}
+
+.promotionCell {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.promotionText {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.promotionYes {
+  color: #047857;
+}
+
+.promotionNo {
+  color: #b91c1c;
+}

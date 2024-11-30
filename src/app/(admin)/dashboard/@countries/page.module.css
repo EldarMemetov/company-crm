@@ -1,0 +1,35 @@
+.container {
+  display: flex;
+  align-items: flex-end;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  gap: 8px;
+}
+
+.dataList {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.countryItem {
+  font-size: 14px;
+  font-weight: 500;
+  color: #1a1a1a;
+  position: relative;
+}
+
+.countryItem::before {
+  content: "";
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  vertical-align: middle;
+  margin-right: 8px;
+}
+
+.image {
+  flex-shrink: 0;
+}

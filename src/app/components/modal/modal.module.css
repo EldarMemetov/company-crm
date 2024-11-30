@@ -1,0 +1,36 @@
+.dialog {
+  position: fixed;
+  inset: 0;
+  z-index: 50;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.overlay {
+  position: fixed;
+  inset: 0;
+  background-color: rgba(31, 41, 55, 0.75); /* bg-gray-500 bg-opacity-75 */
+  transition: opacity 0.3s ease-out;
+}
+
+.panel {
+  position: relative;
+  transform: translateY(-10px);
+  overflow: hidden;
+  border-radius: 8px;
+  background-color: white;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); /* shadow-xl */
+  transition: all 0.3s ease;
+  padding: 28px;
+  margin: auto;
+  width: 100%;
+  max-width: 640px;
+  z-index: 51;
+}
+
+@media (min-width: 640px) {
+  .panel {
+    margin-top: 40px;
+  }
+}

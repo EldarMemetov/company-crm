@@ -1,0 +1,21 @@
+.cell {
+  padding: 8px 20px;
+  font-size: 0.875rem;
+  border-right: 1px solid #f3f4f6;
+}
+
+.cell:first-of-type {
+  border-left: 1px solid #f3f4f6;
+}
+
+.alignLeft {
+  text-align: left;
+}
+
+.alignCenter {
+  text-align: center;
+}
+
+.alignRight {
+  text-align: right;
+}

@@ -1,0 +1,37 @@
+.header {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 24px 40px;
+  border-bottom: 1px solid #d1d5db;
+}
+
+.title {
+  flex: 1;
+  font-size: 24px;
+  font-weight: 600;
+  color: #111827;
+}
+
+.divider {
+  width: 1px;
+  align-self: stretch;
+  background-color: #d1d5db;
+}
+
+.userInfo {
+  display: flex;
+  gap: 12px;
+}
+
+.userName {
+  font-size: 16px;
+  font-weight: 600;
+  color: #111827;
+}
+
+.userEmail {
+  font-size: 14px;
+  font-weight: 300;
+  color: #111827;
+}

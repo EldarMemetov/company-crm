@@ -1,0 +1,41 @@
+.container {
+  display: inline-flex;
+  align-items: center;
+  padding: 4px 14px;
+  border-radius: 9999px;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.statusActive {
+  color: #047857;
+  background-color: #d1fae5;
+}
+
+.statusNotActive {
+  color: #b91c1c;
+  background-color: #fee2e2;
+}
+
+.statusPending {
+  color: #c2410c;
+  background-color: #ffedd5;
+}
+
+.statusSuspended {
+  color: #1e3a8a;
+  background-color: #dbeafe;
+}
+
+.disabled {
+  opacity: 0.75;
+  cursor: not-allowed;
+}
+
+.indicator {
+  width: 4px;
+  height: 4px;
+  margin-right: 8px;
+  border-radius: 50%;
+  background-color: currentColor;
+}

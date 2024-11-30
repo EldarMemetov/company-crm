@@ -1,0 +1,12 @@
+.row {
+  background-color: #ffffff;
+  transition: background-color 0.3s;
+}
+
+.row:nth-child(odd) {
+  background-color: #f9f9f9;
+}
+
+.row:hover {
+  background-color: #eaeaea;
+}

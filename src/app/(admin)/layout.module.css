@@ -1,0 +1,13 @@
+.layoutContent {
+  margin-left: 240px;
+  padding: 20px;
+}
+
+.sidebarWrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 40;
+  width: 240px;
+  height: 100vh;
+}

@@ -1,0 +1,22 @@
+.button {
+  padding: 10px 20px;
+  background-color: #1f2937;
+  color: #f4f4f5;
+  font-size: 16px;
+  text-align: center;
+  font-weight: 500;
+  border-radius: 6px;
+  transition: background-color 0.2s ease;
+}
+
+.enabled:hover {
+  background-color: #27272a;
+}
+
+.enabled:active {
+  background-color: #171717;
+}
+
+.disabled {
+  color: #d4d4d8;
+}

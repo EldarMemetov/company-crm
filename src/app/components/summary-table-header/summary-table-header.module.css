@@ -1,0 +1,46 @@
+.header {
+  padding: 8px 20px;
+  font-size: 0.75rem;
+  font-weight: 400;
+}
+
+.header:first-of-type {
+  border-radius: 4px 0 0 4px;
+}
+
+.header:last-of-type {
+  border-radius: 0 4px 4px 0;
+}
+
+.alignLeft {
+  text-align: left;
+}
+
+.alignCenter {
+  text-align: center;
+}
+
+.alignRight {
+  text-align: right;
+}
+
+.firstChild {
+  &:nth-child(3n + 1) {
+    color: #fff;
+    background-color: #1a202c;
+  }
+}
+
+.secondChild {
+  &:nth-child(3n + 2) {
+    color: #1a202c;
+    background-color: #e9d8fd;
+  }
+}
+
+.thirdChild {
+  &:nth-child(3n + 3) {
+    color: #1a202c;
+    background-color: #d4f5b1;
+  }
+}

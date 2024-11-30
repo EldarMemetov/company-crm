@@ -1,0 +1,27 @@
+/* layout.module.css */
+.main {
+  display: grid;
+  grid-gap: 20px;
+  padding: 40px 28px 0 40px;
+  justify-content: center;
+}
+
+.stats {
+  grid-column: span 12;
+}
+
+.sales {
+  grid-column: span 5;
+}
+
+.categories {
+  grid-column: span 7;
+}
+
+.countries {
+  grid-column: span 6;
+}
+
+.promotions {
+  grid-column: span 6;
+}
